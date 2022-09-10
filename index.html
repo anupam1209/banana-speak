@@ -14,6 +14,20 @@
       body {
         font-family: "Montserrat", sans-serif;
       }
+      textarea {
+        height: 10vh;
+        width: 80%;
+        display: block;
+        margin: 1rem;
+        padding: 1rem;
+      }
+      #output {
+        border: 1px solid black;
+        height: 10vh;
+        width: 80%;
+        margin: 1rem;
+        padding: 1rem;
+      }
     </style>
 
     <title>banana speak</title>
@@ -29,7 +43,11 @@
       cols="40"
       rows="5"
     ></textarea>
-    <button id="btn-translate">Translate</button>
+    <button style="margin-bottom: 2rem" id="btn-translate">Translate</button>
+
+    <div>Output will come here👇</div>
+    <div id="output"></div>
+
     <script src="app.js"></script>
   </body>
 </html>
