@@ -1,0 +1,73 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    max-width: 500px;
+    margin: auto auto;
+}
+
+.header{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minion-container{
+    text-align: center;
+}
+
+.minion-img{
+    width: 5rem;
+}
+
+textarea {
+    height: 10vh;
+    width: 80%;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    outline: none;
+    resize: none;
+}
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.special{
+    color: #fab005;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.btn-translate{
+    background-color:#fab005;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 9px;
+    font-weight: bold;
+    margin: 0px auto;
+
+    /* for the class btn itself */
+    border: none;
+    cursor: pointer;
+
+    /* put transition in original "state" */
+    /* transition: background-color 0.3s; */
+    transition: all 0.3s;
+}
+
+.output-text{
+    text-align: center;
+}
