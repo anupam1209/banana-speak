@@ -1,5 +1,8 @@
-body {
+*{
     font-family: "Montserrat", sans-serif;
+}
+
+.main {
     max-width: 500px;
     margin: auto auto;
 }
@@ -70,4 +73,17 @@ textarea {
 
 .output-text{
     text-align: center;
+}
+
+.footer{
+    background-color: #ffd43b;
+    padding: 1.5rem;
+    text-align: center;
+    color:#495057;
+    border-top-right-radius: 1rem;
+    margin-top: 3rem;
+}
+
+.footer-msg{
+    color: #212529;
 }
