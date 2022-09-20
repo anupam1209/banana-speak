@@ -1,24 +1,27 @@
-*{
+* {
     font-family: "Montserrat", sans-serif;
 }
 
 .main {
     max-width: 500px;
     margin: auto auto;
+    background-color: #fff9db;
+    padding: 2rem 5rem;
+    border-radius: 2rem;
 }
 
-.header{
+.header {
     margin-top: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.minion-container{
+.minion-container {
     text-align: center;
 }
 
-.minion-img{
+.minion-img {
     width: 5rem;
 }
 
@@ -31,6 +34,7 @@ textarea {
     outline: none;
     resize: none;
 }
+
 #output {
     border: 1px solid black;
     height: 10vh;
@@ -39,20 +43,20 @@ textarea {
     padding: 1rem;
 }
 
-.center-text{
+.center-text {
     text-align: center;
 }
 
-.special{
+.special {
     color: #fab005;
 }
 
-.btn-container{
+.btn-container {
     text-align: center;
 }
 
-.btn-translate{
-    background-color:#fab005;
+.btn-translate {
+    background-color: #fab005;
     font-size: 1rem;
     color: #fff;
     text-decoration: none;
@@ -71,19 +75,19 @@ textarea {
     transition: all 0.3s;
 }
 
-.output-text{
+.output-text {
     text-align: center;
 }
 
-.footer{
+.footer {
     background-color: #ffd43b;
     padding: 1.5rem;
     text-align: center;
-    color:#495057;
+    color: #495057;
     border-top-right-radius: 1rem;
     margin-top: 3rem;
 }
 
-.footer-msg{
+.footer-msg {
     color: #212529;
 }
