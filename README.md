@@ -8,4 +8,4 @@ This is minion translator made with the help of VanillaJS
 3. JavaScript
 
 #API Used
-1. Fun Translation - https://funtranslations.com/(link)
+1. Fun Translation - https://funtranslations.com/
